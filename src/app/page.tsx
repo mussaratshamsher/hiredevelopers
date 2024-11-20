@@ -8,7 +8,7 @@ import Iconbar from '../components/Iconbar'
 
 export default function Home() {
   return (
-    <div className='w-full h-[820px] md:h-[800px] box-border bg-gradient-to-tr from-teal-950 via-black to-teal-600'  >
+    <div className='w-full h-[2000px] md:h-[800px] box-border bg-gradient-to-tr from-teal-950 via-black to-teal-600'  >
       <main className="text-center text-white">
         <h1 className=' md:pb-10 md:font-extrabold md:text-6xl pt-[110px] mt-10 pb-5 text-3xl'>
           <b>Build Your <br /> Powerful Career here</b></h1>
@@ -30,7 +30,7 @@ export default function Home() {
       </select></div> 
       <div>
       <select className='py-2 text-black w-80 md:w-[90] rounded-lg px-2 mt-3'>
-        <option className='text-gray-500'>SEO Experts</option>
+        <option className='text-gray-500 py-2'>SEO Experts</option>
         <option value="">Web Designer</option>
         <option value="">Web Developer</option>
         <option value="">Graphic Designer</option>
@@ -43,11 +43,11 @@ export default function Home() {
      
     </form> 
 
-    <div className='flex md:flex-row flex-col mt-3 md:mt-6 justify-center items-center text-lg p-2 md:text-xl'>
-      <p className=' ml-3'><i className='bx bxs-square-rounded' id='i'></i>  FreeLancer</p>
-      <p className='md:ml-4'><i className='bx bxs-square-rounded' id='i'></i> Part Time</p>
-      <p className='md:ml-4'><i className='bx bxs-square-rounded' id='i'></i> Full Time</p>
-    </div>
+    {/* <div className='flex md:flex-row flex-col mt-3 md:mt-6 justify-center items-center text-lg p-2 md:text-xl'>
+      <p className=' ml-3 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i>  FreeLancer</p>
+      <p className='md:ml-4 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i> Part Time</p>
+      <p className='md:ml-4 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i> Full Time</p>
+    </div> */}
 
   <Iconbar />
 

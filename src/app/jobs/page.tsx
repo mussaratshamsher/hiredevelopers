@@ -40,7 +40,7 @@ export default function jobs() {
 <div className='w-[80px] h-[120px] bg-white mt-6'><Image src={logo2} alt="" width={100} height={100}></Image></div>
 
 <div className='ml-4 text-xl md:mt-2 md:ml-7'>
- <h2 className=' text-2xl font-bold'>Make website responsive, device compatible</h2> 
+ <h2 className=' text-2xl font-bold'>Make website device compatible</h2> 
 <p>New York <br /> $200 - $300</p>
 <i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded hover:bg-teal-900 hover:border-teal-700'>  
   Apply Now</button></div>
@@ -104,7 +104,7 @@ export default function jobs() {
 </div>
 
 <button className=' flex justify-center bg-yellow-400 text-white py-3 mt-8 md:mt-15 m-auto border-2 border-yellow-400 w-56 md:w-[300px] 
-      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 '>View All</button>
+      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 text-[20px] '>View All</button>
 
    </div>
   )
