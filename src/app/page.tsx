@@ -39,7 +39,7 @@ export default function Home() {
         <option value="">SEO Marketing</option> 
       </select></div>
       <button className='bg-yellow-400 text-white py-2 mt-3 border-2 border-yellow-400 w-56 md:w-[90] 
-      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 '>SUBMIT NOW</button>
+      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 hover:border-yellow '>SUBMIT NOW</button>
      
     </form> 
 

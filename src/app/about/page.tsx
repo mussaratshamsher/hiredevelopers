@@ -19,7 +19,7 @@ export default function About() {
        That's why we created a platform that brings together job seekers and employers in a seamless and efficient way. 
        Our mission is to provide a user-friendly
        experience, foster meaningful connections, and help people achieve their career and business goals</p>
-       <button className='bg-yellow-400 text-white py-2 border-2 border-yellow-400 w-56 md:w-[90] 
+       <button className='bg-yellow-400 text-white py-2 border-2 hover:border-yellow-400 w-56 md:w-[90] 
       rounded-lg px-3 hover:bg-transparent hover:text-yellow-400 ml-4'>Read More</button>
 
 </div>

@@ -33,11 +33,11 @@ export default function Footer() {
 <h1 className='font-extrabold text-3xl mb-5  mt-28 md:mt-20'>Newsletter</h1>
 <div><input type="text" placeholder='Enter Your Email' className='py-4 text-black w-80 md:w-[90] rounded-lg px-2'/> </div>
 
-<button className=' bg-yellow-400 text-white p-3 mt-10 mb-20 m-auto border-2 border-yellow-400 w-56 md:w-[300px] 
+<button className=' bg-yellow-400 text-white p-3 mt-10 mb-20 m-auto border-2  hover:border-yellow-400 w-56 md:w-[300px] 
       rounded-lg hover:bg-transparent hover:text-yellow-400 md:text-[22px] text-[18px]'>Subscribe</button>   
 </div>
 
-        </main>
+        </main >
         </div>
   )
 }
