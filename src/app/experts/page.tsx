@@ -18,10 +18,10 @@ export default function Experts() {
    <h1 className='mb-3 mt-3 font-bold text-2xl'>Why Choose Us?</h1>
     <h2  className='text-xl'>Our user-friendly platform allows you to browse profiles, view portfolios, and connect directly with experts.</h2>
 
-    <div  className=' w-90 flex flex-col md:flex-row mt-10 mb-10'>
+    <div  className=' w-full flex flex-col md:flex-row mt-10 mb-10'>
 
 
-         <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded-md ml-5 mr-auto  mt-10
+         <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded-md md:ml-5 md:mr-auto  mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e3} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white'>
@@ -32,7 +32,7 @@ export default function Experts() {
         </div>
        </div>
 
-       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded ml-5 mr-auto mt-10
+       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e2} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white '>
@@ -43,7 +43,7 @@ export default function Experts() {
         </div>
        </div>
 
-       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded ml-5 mr-auto mt-10
+       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e1} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white p-3 '>

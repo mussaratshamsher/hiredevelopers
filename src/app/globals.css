@@ -25,13 +25,13 @@ body {
  
  }
  #i:hover{ 
-  color: yellow;
+  color: rgba(234, 234, 3, 0.89);
  }
  #menu{
   color: white;
  }
  #menu:hover{ 
-  color: yellow;
+  color: rgba(255, 255, 0, 0.914);
  }
 
 #auth{
