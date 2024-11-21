@@ -8,20 +8,20 @@ import e3 from './../../../public/e3.jpg'
 
 export default function Experts() {
   return (
-    <div className='w-full text-black md:ml-15 m-auto md:mr-10  mt-44 '>
+    <div className='w-full text-black md:ml-15 m-1 md:mr-10 mt-44 '>
 
 
-<h1 className=' mb-4 font-bold text-3xl'>Looking For Experts?</h1>
-<h2 className='text-xl'>Are you looking for skilled web professionals to elevate your online presence? Look no further! We connect businesses with a
+<h1 className='ml-2 mb-4 font-bold text-3xl'>Looking For Experts?</h1>
+<h2 className='ml-1 text-xl'>Are you looking for skilled web professionals to elevate your online presence? Look no further! We connect businesses with a
    talented pool of web experts ready to take on your projects.
    All our experts are vetted and have a proven track record in their respective fields, ensuring you get the best talent for your needs.</h2>
-   <h1 className='mb-3 mt-3 font-bold text-2xl'>Why Choose Us?</h1>
-    <h2  className='text-xl'>Our user-friendly platform allows you to browse profiles, view portfolios, and connect directly with experts.</h2>
+   <h1 className='mb-3 mt-3 ml-2 font-bold text-2xl'>Why Choose Us?</h1>
+    <h2  className='text-xl ml-1'>Our user-friendly platform allows you to browse profiles, view portfolios, and connect directly with experts.</h2>
 
     <div  className=' w-full flex flex-col md:flex-row mt-10 mb-10'>
 
 
-         <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded-md md:ml-5 md:mr-auto  mt-10
+         <div className='w-[350px] h-[480px] ml-1 border-2 border-gray-400 rounded-md md:ml-5 md:mr-auto  mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e3} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white'>
@@ -32,7 +32,7 @@ export default function Experts() {
         </div>
        </div>
 
-       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
+       <div className='w-[350px] h-[480px] ml-1 border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e2} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white '>
@@ -43,7 +43,7 @@ export default function Experts() {
         </div>
        </div>
 
-       <div className='w-[350px] h-[480px] border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
+       <div className='w-[350px] h-[480px] ml-1 border-2 border-gray-400 rounded md:ml-5 md:mr-auto mt-10
          shadow-none transition-transform duration-300 cursor-pointer hover:shadow-2xl hover:shadow-teal-700'>
        <Image src={e1} alt="" width={500} height={500} className='w-[400px] h-[280px] '></Image>
         <div className='w-[348px] h-[196px] bg-teal-800 text-white p-3 '>
