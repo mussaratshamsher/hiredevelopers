@@ -8,7 +8,7 @@ import e3 from './../../../public/e3.jpg'
 
 export default function Experts() {
   return (
-    <div className='w-full w-[350] text-black md:ml-15 m-auto md:mr-10  mt-44 '>
+    <div className='w-full text-black md:ml-15 m-auto md:mr-10  mt-44 '>
 
 
 <h1 className=' mb-4 font-bold text-3xl'>Looking For Experts?</h1>

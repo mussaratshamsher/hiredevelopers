@@ -34,7 +34,7 @@ export default function Auth(){
           </div> 
 
           <button type="submit"  
-            className="w-ful mt-4 text-white border py-2 bg-transparent border-teal-900 rounded-md hover:bg-transparent hover:text-white
+            className="w-full mt-4 text-white border py-2 bg-transparent border-teal-900 rounded-md hover:bg-transparent hover:text-white
             hover:border-white hover:bg-yellow-400 text-[20px]">  
             {isLogin ? 'Login' : 'Sign Up'}  
           </button> 
