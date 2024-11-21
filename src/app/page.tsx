@@ -39,15 +39,9 @@ export default function Home() {
         <option value="">SEO Marketing</option> 
       </select></div>
       <button className='bg-yellow-400 text-white py-2 mt-3 border-2 border-yellow-400 w-56 md:w-[90] 
-      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 hover:border-yellow '>SUBMIT NOW</button>
+      rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 hover:border-yellow-400 '>SUBMIT NOW</button>
      
     </form> 
-
-    {/* <div className='flex md:flex-row flex-col mt-3 md:mt-6 justify-center items-center text-lg p-2 md:text-xl'>
-      <p className=' ml-3 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i>  FreeLancer</p>
-      <p className='md:ml-4 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i> Part Time</p>
-      <p className='md:ml-4 md:flex-row flex-col'><i className='bx bxs-square-rounded' id='i'></i> Full Time</p>
-    </div> */}
 
   <Iconbar />
 

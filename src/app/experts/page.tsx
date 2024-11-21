@@ -57,7 +57,7 @@ export default function Experts() {
     </div>
       
     <button className='flex md:justify-center bg-yellow-400 text-white p-3 mt-20 mb-20  m-auto border-2 border-yellow-400 w-56 md:w-[300px] 
-      rounded-lg hover:bg-transparent hover:text-yellow-400 '><b>View All Freelancers</b></button>
+      rounded-lg hover:border-yellow-400 hover:bg-transparent hover:text-yellow-400 '><b>View All Freelancers</b></button>
 
        
     </div>

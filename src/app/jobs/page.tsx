@@ -103,7 +103,7 @@ export default function jobs() {
 </div>
 </div>
 
-<button className=' flex justify-center bg-yellow-400 text-white py-3 mt-8 md:mt-15 m-auto border-2 border-yellow-400 w-56 md:w-[300px] 
+<button className=' flex justify-center bg-yellow-400 text-white py-3 mt-8 md:mt-15 m-auto border-2 hover:border-yellow-400 w-56 md:w-[300px] 
       rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 text-[20px] '>View All</button>
 
    </div>
