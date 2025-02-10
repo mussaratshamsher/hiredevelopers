@@ -5,6 +5,8 @@ import dev from "./../../../public/dev.jpg"
 
 export default function About() {
   return (
+    <div className="container max-w-[1440px] mx-auto">
+      
     <div className='mt-[100px] flex flex-col-reverse md:flex-row mb-10 md:mt-5'>
 
     <Image src={dev} alt="" width={500} height={500} 
@@ -25,6 +27,8 @@ export default function About() {
 </div>
 
           
+    </div>
+
     </div>
   )
 }

@@ -28,8 +28,8 @@ export default function Navbar() {
   };
 
   return (
-    <div>
-      <main>
+      <main className="container max-w-[1440px] mx-auto">
+
         <header className="w-full h-24 flex items-center justify-between fixed top-0 right-0 p-4
          bg-teal-900 text-white">
           <h1 className="font-extrabold text-2xl">Hiredev</h1>
@@ -64,7 +64,6 @@ export default function Navbar() {
         </header>
         
       </main>
-    </div>
   );
 }
 

@@ -8,8 +8,8 @@ import e3 from './../../../public/e3.jpg'
 
 export default function Experts() {
   return (
+    <div className="container max-w-[1440px] mx-auto">
     <div className='w-full text-black md:ml-15 m-1 md:mr-10 mt-44 '>
-
 
 <h1 className='ml-2 mb-4 font-bold text-3xl'>Looking For Experts?</h1>
 <h2 className='ml-1 text-xl'>Are you looking for skilled web professionals to elevate your online presence? Look no further! We connect businesses with a
@@ -60,6 +60,7 @@ export default function Experts() {
       rounded-lg hover:border-yellow-400 hover:bg-transparent hover:text-yellow-400 '><b>View All Freelancers</b></button>
 
        
+    </div>
     </div>
   )
 }

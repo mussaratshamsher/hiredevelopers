@@ -7,9 +7,10 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="w-100 py-20 bg-teal-800 text-white">
+<div className="container max-w-[1440px] mx-auto">
+  
+    <div className="w-full py-20 bg-teal-800 text-white">
         <main className="grid grid-cols-1 gap-10 md:grid-cols-3 content-center md:justify-around">
-
 
    <div className='flex justify-center items-center'>
     <ul>
@@ -39,5 +40,6 @@ export default function Footer() {
 
         </main >
         </div>
+     </div>   
   )
 }

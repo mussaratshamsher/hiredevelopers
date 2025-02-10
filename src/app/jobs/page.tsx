@@ -13,6 +13,8 @@ import logo6 from "../../../public/logo6.png"
 
 export default function jobs() {
   return (
+ <div className="container max-w-[1440px] mx-auto">
+  
 <div className='w-full h-[1800px] md:h-[1300px]  box-border bg-teal-900 text-white '>
 
 
@@ -72,7 +74,8 @@ export default function jobs() {
 <div className='ml-4 text-xl md:mt-3 md:ml-7'>
  <h2 className=' text-2xl font-bold'>Are you A Typography Expert?</h2> 
 <p>New York <br /> $56 - $90</p>
-<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded hover:bg-teal-900 hover:border-teal-700'>  
+<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border
+ rounded hover:bg-teal-900 hover:border-teal-700'>  
   Apply Now</button></div>
 
 </div>
@@ -86,26 +89,31 @@ export default function jobs() {
 <div className='ml-4 text-xl md:mt-3 md:ml-7'>
  <h2 className=' text-2xl font-bold'>WordPress Developer for ThemeForest</h2> 
 <p>New Delhi <br /> $400 - $500</p>
-<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded hover:bg-teal-900 hover:border-teal-700'>  
+<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded
+ hover:bg-teal-900 hover:border-teal-700'>  
   Apply Now</button></div>
 
 </div>
 
 <div className='w-[350px] h-[200px] md:w-[500px] md:h-[220px] p-2 border-2 rounded m-auto flex'>
- <div className='w-[100px] h-[100px] bg-white mt-5'><Image src={logo6} alt="" width={100} height={100}></Image></div>
+ <div className='w-[100px] h-[100px] bg-white mt-5'><Image src={logo6} alt="" width={100} height={100}>
+  </Image></div>
 
 <div className='ml-4 text-xl md:mt-3 md:ml-7'>
  <h2 className=' text-2xl font-bold'>Hiring Web Designer for Project</h2> 
 <p>Pakistan <br /> $300 - $450</p>
-<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded hover:bg-teal-900 hover:border-teal-700'>  
+<i className='bx bx-heart'></i><button className='w-[150px] h-[45px] ml-5 mt-3 bg-teal-700 border rounded 
+hover:bg-teal-900 hover:border-teal-700'>  
   Apply Now</button></div>
 
 </div>
 </div>
 
-<button className=' flex justify-center bg-yellow-400 text-white py-3 mt-8 md:mt-15 m-auto border-2 hover:border-yellow-400 w-56 md:w-[300px] 
+<button className=' flex justify-center bg-yellow-400 text-white py-3 mt-8 md:mt-15 m-auto border-2 
+hover:border-yellow-400 w-56 md:w-[300px] 
       rounded-lg px-2 hover:bg-transparent hover:text-yellow-400 text-[20px] '>View All</button>
 
    </div>
+</div>
   )
 }

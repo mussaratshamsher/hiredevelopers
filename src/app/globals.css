@@ -40,18 +40,18 @@ body {
 background-size: cover;
 }
 
+#banner {  
+  overflow: hidden;  
+  white-space: nowrap;   
+  display: flex;  
+  align-items: center; 
+}  
+
+#scrolling-box { 
+  display: inline-block;   
+  animation: scroll 10s linear infinite;  
+  font-size: 0.875rem;  
+  padding-left: 100%; 
+}  
 
 
-/* #land{
-  background: linear-gradient(rgb(1, 112, 112), white, rgb(2, 107, 55));
-  opacity: 90%;
-}
-#land::before{
-  content: " ";
-  position: absolute;
-  background-image: url('/bg2.jpg');
-  inset: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
-} */

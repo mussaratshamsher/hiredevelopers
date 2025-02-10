@@ -8,6 +8,7 @@ import Iconbar from '../components/Iconbar'
 
 export default function Home() {
   return (
+    <div className="container max-w-[1440px] mx-auto">
     <div className='w-full h-[2000px] md:h-[800px] box-border bg-gradient-to-tr from-teal-950 via-black to-teal-600'  >
       <main className="text-center text-white">
         <h1 className=' md:pb-10 md:font-extrabold md:text-6xl pt-[110px] mt-10 pb-5 text-3xl'>
@@ -16,7 +17,7 @@ export default function Home() {
              or seeking expert freelancers to bring your project to life, <br />
              we've got you covered.</h2>
 
-  <form className='flex md:flex-row flex-col justify-center items-center gap-2 mt-3  md:mt-6'>
+  <form className='flex md:flex-row flex-col justify-center items-center gap-2 mt-3 md:mt-6'>
       <div>
     <input type="text" placeholder='Keywords' className='py-2 text-black w-80 mt-3 md:w-[90] rounded-lg px-2'/> </div>
     <div>
@@ -47,6 +48,8 @@ export default function Home() {
 
       </main>
     
+     </div>
+
      </div>
   )
 }
