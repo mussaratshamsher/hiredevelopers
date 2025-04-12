@@ -31,7 +31,7 @@ export default function RootLayout({
 <head>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
       </head>
-
+<div className="container max-w[1440px] mx-auto">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -40,6 +40,7 @@ export default function RootLayout({
 
         <Footer />
       </body>
+  </div>
     </html>
   );
 }
