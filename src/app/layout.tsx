@@ -27,20 +27,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
-<head>
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+      <head>
+        <link
+          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+        />
       </head>
-<div className="container max-w-[1440px] mx-auto">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        {children}
-
-        <Footer />
+        <div className="container max-w-[1440px] mx-auto">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
-  </div>
     </html>
   );
 }
